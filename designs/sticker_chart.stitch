@@ -1,0 +1,184 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Lexend%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-white justify-between group/design-root overflow-x-hidden" style='font-family: Lexend, "Noto Sans", sans-serif;'>
+      <div>
+        <div class="flex items-center bg-white p-4 pb-2 justify-between">
+          <div class="text-[#111518] flex size-12 shrink-0 items-center" data-icon="ArrowLeft" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+            </svg>
+          </div>
+          <h2 class="text-[#111518] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">Sticker Chart</h2>
+        </div>
+        <p class="text-[#111518] text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">Earn stickers by completing tasks and milestones!</p>
+        <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDJf0rX8Xy6cOu4Xp5qE-BCGau7eeKa_qgvFQq0f0G107syXnkmP6OMrZ6rg0lsV3MM_n-J-EYof4AtYDkRAlZEZjp06w6aLdcKvNh0uGy5NYRf_dZCP2xADaLgPkZm-vUq62ZdvVnPLfRgpdk1X7MhymkxbUThOSlCIeSmVOYIoEqFDrfq7SRp70nHzSAFbanNJlviTP-CTYhow10ktsq7i393zfWP0DfJgZp09AWynLIpsaSHnV0LDGYUi85rsQjEzxOnOKtWEQo");'
+            ></div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBnVynJc-H3i5uTUYVpgDXhA7vNixGB5xxBVmz3OFpJnx0KSKDHspsA-bbP7bnL22zwa819_U3zwJDsDCqgQ_L-GOMs3uye-RePh4Hx0bLggxzIF7PVPAvgz1za30HzddDCPhKPUyKGU9RcIs5lBxEk58w-A4WDqvtD6GcXUft4Wl1KdgZICNcWxJXKdKvyYINdsEt8rRDqekQma474F0po04rU1Ofn7LuaR5EUbWcc1WoHmrPQb1rHnUt7lH9ccdw0s-j_vQ_5GuM");'
+            ></div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDgLz5NnAwqNvs4DJOoBPSg5N_rxgqfsWssk33ik7eZbBgCD9HN5tY4yzpVEiaAGEYZZAbGgmZbYXWHEgfG-_63A87FnFk8WfvxirbEmxVKXBFi6NVLIowZB03Y5tVkobqZUVzHN1Ftx80VuxsSKJv6InOsnBRWzT_KhOU0EW6fnwXpadRSrr8CjhWwbEf3Ur_J_bJrNAKdmxHptDABE1iC8BPSlCp2Rmiv63pvcaJatLH1VPW3G92xS_SxWpCfcNsiaYMbamYWHUw");'
+            ></div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCg8-_vLiUtQ6C9UlWEQHifVLNR4KHAf7TdpioMQ5VtD9ULxQnmVcfHLQCfi7i-66Cx_LnMIxqv7ZCWovlHseVYo6-njoLcvSlWen-7XmQTcZlbybBFEADMhUe8KYlvWq46LRXuQD4xewOIIWiFOihrjIXbf2QmPKM7N_mL58uY201yOnCQvBJ619E0GOqKmzTaDmJK61q0a6oFGXHCUdwM3EIIq00uleFYmIx2Bxs12TzijsPMwsJn-x95geh0qMn75T9MuBuLmdA");'
+            ></div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBQWUnt6Lzve6Adi70YE1ZXFfAO4juN3EDtW4P9SaJhAhQnvixVKTiS-3VI8GLkAK7FmwQeH-_z9tO86QcVOV9BV4w2LQVXLdlXZwOt3W-LeipAKQgqKdIqHd4m1EI37JDMxgomYhoGQt2oHyh6ifh2k1XmFe1_FMlb5LVOwxVadRraeaGfQuF2twF_vi74NGixfPbNEAJyePAKagQ-fNH7vqyEagV9bfjXPXvfSzVuci-5T1NKydSI5SYGu7NJzM3nlQlIhR9n-I0");'
+            ></div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBBrxApHMqWVXJdDhE9ZezxbyqMB4z2m2t0R2mVzLh0wiTjn6v_yaek2jXVY5KemSfNR-MbRNeQJ0BAawiWjal5XHSd9_Sh8tGgACXxIMJEKHRCmWobxFeYMmWngnPsolIGcpEUa41xvmOk1mQwuFgaQVKToPNcefLDuNZVfmylFZEj1exb_n-b_qQbKvuyTT1IPxvigDQsvwKb1YwIQhEH-ePJuLxNd4VGgQmmqtD40o3UaXS-JuICG6UlgSisO_mGG7FMFn2MlH4");'
+            ></div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCiL7XZdIQ3t7hyw2TmCJWMLqbyJ7KkUv-EzOddwpz7JKWmJipIuvvk4oKrcXhFTTOYxJPDPSjDViuoaqb7lV1lcCiHdWnuCKKeNUBN8jIw6Tcji6fbzVxp60BtDOpiTXmGb90ZsaL9z3VT5Qq0hixkeq6DCck3XmzzB940lBJAobH7a0zBZC5b1d7K00VUSr7YYGQdXV3cJ5DEwxsETOH4bZan4E6rAy1N0HPwMahEShx_K_j4B63QTme8jKIqy5WYfr7Biy-t1Zs");'
+            ></div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCG58GBuMJZ4kdERRO9KCjKYGrCbAE4LXH8wXS4gohYsdzoNOiC26L7Owg3Y64iSRpQwG4lNzecqwdGc0U1ud2--KJBTvKpWGJMw2yBM8Jf5bjyaGhgBT5VGhTO5pXFWazsP00qSZx4FkowfZTAi6jrx-C6iwPk-qT8473A3gm0pWsqDCddE8ddVJ9zc8tgLuUv82xZtnkl8EjZ45dnETWEnk2sTieMZe_uFAEKuzt5Rk1-E-Q2N2skFSxZaqSgwQVl-haxnCJCC8o");'
+            ></div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBFY6frK1XUtURgqfv7AgmuD9w7DuDI79QKJdIbF2LjihiTdFajao8F26uIngZ4JF_tdppZN_yMB11f2bpdypnPIsrsRkajE4j4af3bUgbBRri_jQ5udqGe-xetjBRlqmfLUbr0cJI7Q1teq565BY6ATXnjsV2jV-I6CI5HbQEOFScj_oKysFC3mfwvkGJyczLtLOhcioTWKynJOZo8_2gd7H5WE6lVqATTZcnXr34qG4ycosaz26DUwyOsScvmoxgZE1TxXCqIH8Q");'
+            ></div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCEpA4KXgdCR943-FPgRvCpkzp9XQLzu6SvQ-4CMMpVUX86MlOgZyF_b2rqYdE-HvnJ3sKxzSGGDQNaiQeM4aheUh6gQdY-ZzXita1MpigFBHXX9PUlkXwz29v6Y7kgU2ZZIgILg4TrcqecQQkxV4QzESp5ySgy5_ZlHYE-4ILgyTnUSMAooIR_KXmh7sCSFSwDRAiBC-HiOgsPIlIbkXRiZ_jeMf6rjOZug-Rn_RZGaWobm0ABkMrFGMBaJ4Vyw3Y5HCSckyYLC_w");'
+            ></div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA2sD5iX7My4t6pT_mqf47ejJcGKxAMlWB2gb3hkP80igUXPd25IYVkGQHkdb4SjEKiDFbpb7RpGGJrpr2SUJ1e_gE-wkbqolTrAvN9Pc0qSPOTGeDquuPBmeT3-oKN6BvC4JUWybu07uGQuee6b1Yh2D9fEmnMtDZPozwD8oNMY7qqw40w7FzZVE-wOzkS225WH5KW6wYzTGw0AKPP2OO6PGzFj-3vGohlIYswmqfcT7LrYGPsr0k8Od63pi7h19lMEEFiPbd8OJ8");'
+            ></div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA8GJAHaP2B2G0lawzRqHVrJ8XigGKaJQ5JOYjQulg1-IIkjGqgkeBdSRBnaqhGSV2I5Np5LQvysXf7PUWdWx0NFWlj4v6Ig44fqo5ztXLijX7vDqeRJFNbubvLuwnJdwtaLtNj_mihYCD0T8b1s9zcgN8SMLlGM8syHO29dMUV9ml_KSmaChY7N6nWfOWINEz9CQ3_eWUu_tVpD7XY49F58xi1Li-tVQMuUuhE5eeUk2Xe8_Y3Q28BgrbhE5DxS4VEi9CwZYAi2qk");'
+            ></div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB-GkNJnPzMBPQybyOYISvrGtv5fe2zET1RHue0nqJXXb0AzZvupIUr4md8GQYfPQh3ZZSdd0T33UsRGzSRcdUG1tmSPD5jNma2nnmd2wcqirtO8wDywSXGImQmmOSbQf5_UHchPHcU4x3LA0Giw2bYvPYH_nZWjDyECar7-LJN9W2PlRaVvyXVRZOAMNiCvg1nR9VJ5fOfGJwtXB3UE7wWm7Rodm9zrN3tcYIwcQWwRSH8NhM-2f9xni8q8qb-2ca2fXc8Na6P_Cs");'
+            ></div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBXLni_wU8uvnsu4N3S8EycSsElxPJdAzf0gVr-DXeSBvmiJC55ZO_Jtnl5_3yDXE0CM106RiHDwqwhp-lmcyUWnGv2-Z_zdp2oXUWjqxWIWPbANByAioSipe9t3DhdfBA0ggLrwotNTPqGXsY9xEFbytbCQsy20onr811L3KdQocpl6sGIqUNO6bZcc2a1Gxflnq3WWE3Gh6xXpUdTnjjWzUSQCQCyw3S3kZ2vz-Lf81lAf1q1TCJspebxB5luI2FBTn6z0mgcA1I");'
+            ></div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDwitAwGVATE4TIEYsTywHoj7iVmUZ249A1chbAM81HaY51WmCqNRvEtCTqUsvLm6aOmEWMobJG9Ln_17fif6oSNkVQuGWvhWVaJ3lv6zIFr7uqsSxOyfnsFlvo_Vk959QxVo7EE96Y7VWwR7-_t-uwrrjtUup244x5XqR6e123O5LqmIwuIWeqji1VX5SVm3tMmss5IRmGPQDRyn1HmeuoR7bO_tjghNDo38-Uzvmpl9ZCzKFx_kmpNav5oePGlK9VqkRE4MGhqCk");'
+            ></div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDJTrA5cspancWtjlFjbhIYOfiVYVabdw2Z7oF1QVCIpPqu3Usqe8HpCZDtiiUwex1srkRJFav6IFA-DxalXx-mBFMW9s-gS5uvG9B1FwnaWHijdOOYuowWersp8tA8iIPmV-DlcLuJ0s9oxa5IOotmkYi8pTYcbSdVZ9vjOT1LBOsNHK1EODNTOyV8s515v6mBQP4E2FNXhm9Q2L4c2utAONc4yuQpDhidbt-vMZrC1NULSKgANV-uBQ8PlctNu283uowCR4Hz0d8");'
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex gap-2 border-t border-[#f0f3f4] bg-white px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#637c88]" href="#">
+            <div class="text-[#637c88] flex h-8 items-center justify-center" data-icon="Calendar" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-96-88v64a8,8,0,0,1-16,0V132.94l-4.42,2.22a8,8,0,0,1-7.16-14.32l16-8A8,8,0,0,1,112,120Zm59.16,30.45L152,176h16a8,8,0,0,1,0,16H136a8,8,0,0,1-6.4-12.8l28.78-38.37A8,8,0,1,0,145.07,132a8,8,0,1,1-13.85-8A24,24,0,0,1,176,136,23.76,23.76,0,0,1,171.16,150.45Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#637c88] text-xs font-medium leading-normal tracking-[0.015em]">Calendar</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#637c88]" href="#">
+            <div class="text-[#637c88] flex h-8 items-center justify-center" data-icon="Trophy" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M232,64H208V56a16,16,0,0,0-16-16H64A16,16,0,0,0,48,56v8H24A16,16,0,0,0,8,80V96a40,40,0,0,0,40,40h3.65A80.13,80.13,0,0,0,120,191.61V216H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16H136V191.58c31.94-3.23,58.44-25.64,68.08-55.58H208a40,40,0,0,0,40-40V80A16,16,0,0,0,232,64ZM48,120A24,24,0,0,1,24,96V80H48v32q0,4,.39,8Zm144-8.9c0,35.52-28.49,64.64-63.51,64.9H128a64,64,0,0,1-64-64V56H192ZM232,96a24,24,0,0,1-24,24h-.5a81.81,81.81,0,0,0,.5-8.9V80h24Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#637c88] text-xs font-medium leading-normal tracking-[0.015em]">Milestones</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-[#111518]" href="#">
+            <div class="text-[#111518] flex h-8 items-center justify-center" data-icon="Sticker" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M168,32H88A56.06,56.06,0,0,0,32,88v80a56.06,56.06,0,0,0,56,56h48a8.07,8.07,0,0,0,2.53-.41c26.23-8.75,76.31-58.83,85.06-85.06A8.07,8.07,0,0,0,224,136V88A56.06,56.06,0,0,0,168,32ZM136,207.42V176a40,40,0,0,1,40-40h31.42C198.16,157.55,157.55,198.16,136,207.42Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#111518] text-xs font-medium leading-normal tracking-[0.015em]">Stickers</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#637c88]" href="#">
+            <div class="text-[#637c88] flex h-8 items-center justify-center" data-icon="Users" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#637c88] text-xs font-medium leading-normal tracking-[0.015em]">Nanny</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#637c88]" href="#">
+            <div class="text-[#637c88] flex h-8 items-center justify-center" data-icon="Gear" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm88-29.84q.06-2.16,0-4.32l14.92-18.64a8,8,0,0,0,1.48-7.06,107.21,107.21,0,0,0-10.88-26.25,8,8,0,0,0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186,40.54a8,8,0,0,0-3.94-6,107.71,107.71,0,0,0-26.25-10.87,8,8,0,0,0-7.06,1.49L130.16,40Q128,40,125.84,40L107.2,25.11a8,8,0,0,0-7.06-1.48A107.6,107.6,0,0,0,73.89,34.51a8,8,0,0,0-3.93,6L67.32,64.27q-1.56,1.49-3,3L40.54,70a8,8,0,0,0-6,3.94,107.71,107.71,0,0,0-10.87,26.25,8,8,0,0,0,1.49,7.06L40,125.84Q40,128,40,130.16L25.11,148.8a8,8,0,0,0-1.48,7.06,107.21,107.21,0,0,0,10.88,26.25,8,8,0,0,0,6,3.93l23.72,2.64q1.49,1.56,3,3L70,215.46a8,8,0,0,0,3.94,6,107.71,107.71,0,0,0,26.25,10.87,8,8,0,0,0,7.06-1.49L125.84,216q2.16.06,4.32,0l18.64,14.92a8,8,0,0,0,7.06,1.48,107.21,107.21,0,0,0,26.25-10.88,8,8,0,0,0,3.93-6l2.64-23.72q1.56-1.48,3-3L215.46,186a8,8,0,0,0,6-3.94,107.71,107.71,0,0,0,10.87-26.25,8,8,0,0,0-1.49-7.06Zm-16.1-6.5a73.93,73.93,0,0,1,0,8.68,8,8,0,0,0,1.74,5.48l14.19,17.73a91.57,91.57,0,0,1-6.23,15L187,173.11a8,8,0,0,0-5.1,2.64,74.11,74.11,0,0,1-6.14,6.14,8,8,0,0,0-2.64,5.1l-2.51,22.58a91.32,91.32,0,0,1-15,6.23l-17.74-14.19a8,8,0,0,0-5-1.75h-.48a73.93,73.93,0,0,1-8.68,0,8,8,0,0,0-5.48,1.74L100.45,215.8a91.57,91.57,0,0,1-15-6.23L82.89,187a8,8,0,0,0-2.64-5.1,74.11,74.11,0,0,1-6.14-6.14,8,8,0,0,0-5.1-2.64L46.43,170.6a91.32,91.32,0,0,1-6.23-15l14.19-17.74a8,8,0,0,0,1.74-5.48,73.93,73.93,0,0,1,0-8.68,8,8,0,0,0-1.74-5.48L40.2,100.45a91.57,91.57,0,0,1,6.23-15L69,82.89a8,8,0,0,0,5.1-2.64,74.11,74.11,0,0,1,6.14-6.14A8,8,0,0,0,82.89,69L85.4,46.43a91.32,91.32,0,0,1,15-6.23l17.74,14.19a8,8,0,0,0,5.48,1.74,73.93,73.93,0,0,1,8.68,0,8,8,0,0,0,5.48-1.74L155.55,40.2a91.57,91.57,0,0,1,15,6.23L173.11,69a8,8,0,0,0,2.64,5.1,74.11,74.11,0,0,1,6.14,6.14,8,8,0,0,0,5.1,2.64l22.58,2.51a91.32,91.32,0,0,1,6.23,15l-14.19,17.74A8,8,0,0,0,199.87,123.66Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#637c88] text-xs font-medium leading-normal tracking-[0.015em]">Settings</p>
+          </a>
+        </div>
+        <div class="h-5 bg-white"></div>
+      </div>
+    </div>
+  </body>
+</html>
