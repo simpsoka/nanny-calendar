@@ -16,26 +16,26 @@
   </head>
   <body>
     <div
-      class="relative flex size-full min-h-screen flex-col bg-white justify-between group/design-root overflow-x-hidden"
+      class="relative flex size-full min-h-screen flex-col bg-white dark:bg-slate-900 justify-between group/design-root overflow-x-hidden"
       style="--select-button-svg: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(99,124,136)%27 viewBox=%270 0 256 256%27%3e%3cpath d=%27M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z%27%3e%3c/path%3e%3c/svg%3e'); font-family: Lexend, &quot;Noto Sans&quot;, sans-serif;"
     >
       <div>
-        <div class="flex items-center bg-white p-4 pb-2 justify-between">
-          <div class="text-[#111518] flex size-12 shrink-0 items-center" data-icon="X" data-size="24px" data-weight="regular">
+        <div class="flex items-center bg-white dark:bg-slate-900 p-4 pb-2 justify-between">
+          <div class="text-[#111518] dark:text-slate-50 flex size-12 shrink-0 items-center" data-icon="X" data-size="24px" data-weight="regular">
             <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
               <path
                 d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"
               ></path>
             </svg>
           </div>
-          <h2 class="text-[#111518] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">Add Activity</h2>
+          <h2 class="text-[#111518] dark:text-slate-50 text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">Add Activity</h2>
         </div>
         <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
           <label class="flex flex-col min-w-40 flex-1">
             <input
               id="activity-name"
               placeholder="Activity Name"
-              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f3f4] focus:border-none h-14 placeholder:text-[#637c88] p-4 text-base font-normal leading-normal"
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] dark:text-slate-50 focus:outline-0 focus:ring-0 border-none bg-[#f0f3f4] dark:bg-slate-800 focus:border-none h-14 placeholder:text-[#637c88] dark:placeholder:text-slate-400 p-4 text-base font-normal leading-normal"
               value=""
             />
           </label>
@@ -44,7 +44,7 @@
           <label class="flex flex-col min-w-40 flex-1">
             <select
               id="activity-day"
-              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f3f4] focus:border-none h-14 bg-[image:--select-button-svg] placeholder:text-[#637c88] p-4 text-base font-normal leading-normal"
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] dark:text-slate-50 focus:outline-0 focus:ring-0 border-none bg-[#f0f3f4] dark:bg-slate-800 focus:border-none h-14 bg-[image:--select-button-svg] placeholder:text-[#637c88] dark:placeholder:text-slate-400 p-4 text-base font-normal leading-normal"
             >
               <option value="one">Day</option>
               <option value="two">two</option>
@@ -56,7 +56,7 @@
           <label class="flex flex-col min-w-40 flex-1">
             <select
               id="activity-time"
-              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f3f4] focus:border-none h-14 bg-[image:--select-button-svg] placeholder:text-[#637c88] p-4 text-base font-normal leading-normal"
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] dark:text-slate-50 focus:outline-0 focus:ring-0 border-none bg-[#f0f3f4] dark:bg-slate-800 focus:border-none h-14 bg-[image:--select-button-svg] placeholder:text-[#637c88] dark:placeholder:text-slate-400 p-4 text-base font-normal leading-normal"
             >
               <option value="one">Time</option>
               <option value="two">two</option>
@@ -69,15 +69,15 @@
             <textarea
               id="activity-description"
               placeholder="Description"
-              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f3f4] focus:border-none min-h-36 placeholder:text-[#637c88] p-4 text-base font-normal leading-normal"
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] dark:text-slate-50 focus:outline-0 focus:ring-0 border-none bg-[#f0f3f4] dark:bg-slate-800 focus:border-none min-h-36 placeholder:text-[#637c88] dark:placeholder:text-slate-400 p-4 text-base font-normal leading-normal"
             ></textarea>
           </label>
         </div>
-        <div class="flex items-center gap-4 bg-white px-4 min-h-14 justify-between">
-          <p class="text-[#111518] text-base font-normal leading-normal flex-1 truncate">Set Reminder</p>
+        <div class="flex items-center gap-4 bg-white dark:bg-slate-900 px-4 min-h-14 justify-between">
+          <p class="text-[#111518] dark:text-slate-50 text-base font-normal leading-normal flex-1 truncate">Set Reminder</p>
           <div class="shrink-0">
             <label
-              class="relative flex h-[31px] w-[51px] cursor-pointer items-center rounded-full border-none bg-[#f0f3f4] p-0.5 has-[:checked]:justify-end has-[:checked]:bg-[#47b4eb]"
+              class="relative flex h-[31px] w-[51px] cursor-pointer items-center rounded-full border-none bg-[#f0f3f4] dark:bg-slate-800 p-0.5 has-[:checked]:justify-end has-[:checked]:bg-[#47b4eb]"
             >
               <div class="h-full w-[27px] rounded-full bg-white" style="box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px, rgba(0, 0, 0, 0.06) 0px 3px 1px;"></div>
               <input id="activity-reminder" type="checkbox" class="invisible absolute" />
@@ -89,12 +89,12 @@
         <div class="flex px-4 py-3">
           <button
             id="save-button"
-            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 flex-1 bg-[#47b4eb] text-[#111518] text-base font-bold leading-normal tracking-[0.015em]"
+            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 flex-1 bg-[#47b4eb] text-[#111518] dark:text-slate-900 text-base font-bold leading-normal tracking-[0.015em]"
           >
             <span class="truncate">Save</span>
           </button>
         </div>
-        <div class="h-5 bg-white"></div>
+        <div class="h-5 bg-white dark:bg-slate-900"></div>
       </div>
     </div>
      <script src="js/app.js"></script>
