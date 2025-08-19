@@ -1,4 +1,36 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const themeToggle = document.getElementById('theme-toggle');
+  const htmlElement = document.documentElement;
+
+  // Function to set theme
+  const setTheme = (theme) => {
+    if (theme === 'dark') {
+      htmlElement.classList.add('dark');
+      if (themeToggle) {
+        themeToggle.querySelector('input').checked = true;
+      }
+      localStorage.setItem('theme', 'dark');
+    } else {
+      htmlElement.classList.remove('dark');
+      if (themeToggle) {
+        themeToggle.querySelector('input').checked = false;
+      }
+      localStorage.setItem('theme', 'light');
+    }
+  };
+
+  // Check for saved theme
+  const savedTheme = localStorage.getItem('theme') || 'light';
+  setTheme(savedTheme);
+
+  // Theme toggle event listener
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const isDarkMode = htmlElement.classList.contains('dark');
+      setTheme(isDarkMode ? 'light' : 'dark');
+    });
+  }
+
   const backButton = document.querySelector('[data-icon="ArrowLeft"]');
   if (backButton) {
     backButton.addEventListener('click', () => {
@@ -93,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (entryData && entryData.entryType) {
       const list = document.getElementById('this-week-list');
       const newEntry = document.createElement('div');
-      newEntry.className = 'flex items-center gap-4 bg-white px-4 min-h-[72px] py-2';
+      newEntry.className = 'flex items-center gap-4 bg-white dark:bg-slate-900 px-4 min-h-[72px] py-2';
 
       let icon, title, subtitle;
 
@@ -112,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       const iconDiv = document.createElement('div');
-      iconDiv.className = 'text-[#111518] flex items-center justify-center rounded-lg bg-[#f0f3f4] shrink-0 size-12';
+      iconDiv.className = 'text-[#111518] dark:text-slate-50 flex items-center justify-center rounded-lg bg-[#f0f3f4] dark:bg-slate-800 shrink-0 size-12';
       iconDiv.dataset.icon = icon;
       iconDiv.dataset.size = '24px';
       iconDiv.dataset.weight = 'regular';
@@ -124,11 +156,11 @@ document.addEventListener('DOMContentLoaded', () => {
       textDiv.className = 'flex flex-col justify-center';
 
       const titleP = document.createElement('p');
-      titleP.className = 'text-[#111518] text-base font-medium leading-normal line-clamp-1';
+      titleP.className = 'text-[#111518] dark:text-slate-50 text-base font-medium leading-normal line-clamp-1';
       titleP.textContent = title;
 
       const subtitleP = document.createElement('p');
-      subtitleP.className = 'text-[#637c88] text-sm font-normal leading-normal line-clamp-2';
+      subtitleP.className = 'text-[#637c88] dark:text-slate-400 text-sm font-normal leading-normal line-clamp-2';
       subtitleP.textContent = subtitle;
 
       textDiv.appendChild(titleP);
